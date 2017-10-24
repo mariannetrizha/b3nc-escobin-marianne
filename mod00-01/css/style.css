@@ -1,0 +1,39 @@
+body {
+	background-color: #add8e6;
+	background: url("../img/background3.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: 	orange;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 32px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0;
+}
+
+#me{
+	height: 250px;	
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: green;
+	border-right-width: 5px;
+	margin-top: 150px;
+
+}
+.about	{
+	width: 100%;
+
+}
+.container { 
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+ }
+
+ h2	{
+ 	margin-top: 0;
+ 	letter-spacing: 1px;
+ }
