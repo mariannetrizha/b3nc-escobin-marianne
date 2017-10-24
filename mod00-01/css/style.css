@@ -25,6 +25,8 @@ h1 {
 }
 .about	{
 	width: 100%;
+	font-size: 16px;
+
 
 }
 .container { 
@@ -37,3 +39,4 @@ h1 {
  	margin-top: 0;
  	letter-spacing: 1px;
  }
+
