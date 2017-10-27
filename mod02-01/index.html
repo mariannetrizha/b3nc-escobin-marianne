@@ -11,6 +11,9 @@
 			border-collapse: collapse;
 			border: 1px solid black;
 		}
+
+
+}
 	</style>
 
 </head>
@@ -335,6 +338,67 @@
 		<input type="submit" name="signIn" value="SignIn">
 		<input type="submit" name="signUp" value="SignUp">
 	</form>
+
+	<hr>
+
+	<fieldset>
+		<legend>Contact Details</legend>
+		<label for="email"> Email</label>
+		<input type="email" name="email">
+
+		<label for="mobile">Mobile</label>
+		<input type="Mobile" name="mobile">
+	</fieldset>
+
+	<hr>
+
+	<fieldset style="width: 5px">
+		<legend>Your Details</legend>
+		<label for="name">Name</label>
+		<input type="name" name="name"> <br>
+
+		<label for="email">Email</label>
+		<input type="email" name="email">
+	</fieldset>
+
+	<fieldset style="width: 25px">
+		<legend>Your Review:</legend>
+		<label>How did you hear about us?</label>
+
+		<form action="" method="">
+		<select name="brand">
+			<option value="Google">Google</option>
+			<option value="Facebook" selected>Facebook</option>
+			<option value="Twitter">Twitter</option>
+			<option value="Blog">Blog</option>
+			<option value="Website">Website</option>
+			<option value="Referral">Referral</option>
+		</select>	
+		</form>
+
+		<label>Would you visit us again?</label>
+		<form action="" method="">
+			<input type="radio" name="answer" value="pop">Yes
+			<input type="radio" name="answer" value="rock">No
+			<input type="radio" name="answer" value="jazz">Maybe
+		</form>
+
+		<label>Comments:</label> <br>
+			<textarea></textarea>
+
+		<br>
+
+		<input type="checkbox" name="updates" value="updates" checked>Sign me up for updates
+
+		<br>
+
+		<input type="submit" name="signIn" value="Submit review"> 
+
+	
+	</fieldset>
+
+	
+
 </body>
 </html>
 
