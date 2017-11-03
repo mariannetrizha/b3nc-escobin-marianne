@@ -1,0 +1,14 @@
+DOM (Document Object Model)- 
+	interface where a developer can manipulate elements in a page. DOM is what we actually program.
+
+	works under the hood of a browser
+
+	controls structure, style, content etc 
+
+	stadard interface of HTML i.e without DOM, HTML is nothing
+
+Documents 
+	are nodes and objects 
+
+Objects
+	basically HTML elements 

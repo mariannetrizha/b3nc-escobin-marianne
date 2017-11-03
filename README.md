@@ -10,4 +10,8 @@ I was 45 mins late and I thought there'd have been a lot of commits already. Tur
 
 #Feedback
 ## 2017-10-30
-### Suggestions to be more efficient/ some things to iterate upon: Ready the agenda and materials before 5:45p. So that when we start, by 5:45p or after the grace period, everything is set and the class' workflow is efficient. Currently I noticed, our class doesnt usually start until 5:55 or 6pm and only then do we start readying/ typing the agenda on the screen and figuring out the best way to distribute materials etc 
+### Suggestions to be more efficient/ some things to iterate upon: Ready the agenda and materials before 5:45p. So that when we start, by 5:45p or after the grace period, everything is set and the class' workflow is efficient. Currently I noticed, our class doesnt usually start until 5:55 or 6pm and only then do we start readying/ typing the agenda on the screen and figuring out the best way to distribute materials etc. Sidenote: What I learned today: theres no one right answer, a developer might be able to come up with a faster way to develop the client's vision and that's ok.. even better in fact. 
+
+#Feedback
+## 2017-11-2
+### Suggestion: test all the activity links on incognito before the class to save time :)
