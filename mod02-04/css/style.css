@@ -14,6 +14,7 @@ header{
 	font-size:25px;
 	font-family: 'Pacifico', cursive;
 	margin: 5px;
+	padding-bottom: 20px;
 
 }
 
@@ -94,6 +95,7 @@ body{
 }
 .btn-green{
 	background-color: #4caf50;
+	margin-right: 10px;
 
 }
 

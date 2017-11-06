@@ -1,0 +1,62 @@
+* {
+	font-size: 24px;
+}
+
+
+.wrapper {
+	width: 80%;
+	border: 2px solid black;
+	margin: 0 auto; /*will center wrapper */
+	padding: 20px;
+}
+
+/*:link or unvisited link targetting:*/
+
+a:link { /*modifying thru pseudo class// ALL anchor tag links will now be changed to green color*/
+	color:#008000;
+}
+
+a:visited { 
+	color: #006666; 
+}
+
+a:focus {
+	color: #992600;
+}
+
+a:hover {
+	background-color: lightgrey;
+}
+
+a:active {
+	color: #004d99;
+}
+
+main.wrapper:hover {
+	background-color: lightblue;
+}
+
+p, 
+#test, 
+.spans,
+.box p {
+	color: #99004d;
+}
+
+/*attribute selector*/
+
+a[target="_blank"] {
+	background-color: yellow;
+}
+
+div + p {
+	background-color: lightgreen;
+}
+
+div ~ p { 
+	background-color: red;
+ }
+
+ div > p { 
+ 	background-color: blue;
+ }

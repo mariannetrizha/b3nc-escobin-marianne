@@ -1,0 +1,24 @@
+Intro to CSS
+	Like a PPT to your Doc! 
+		Parts: 
+		Selector- Declaration
+			Selector: 5 types 
+				TYPE Selector - html element 
+				#ID selector (each element can only have one ID on every page)
+				.ClASS selector 
+				ATTRIBUTE selector (usually used for dynamic websites)[attr=value]
+				*UNIVERSAL selector
+
+			Declaration: Property (color) and value (blue) 
+
+	Rules of CSS 
+		1. One CSS element can affect many HTML element 
+		2. One HTML element can be affected by many CSS elements
+		3. One stylesheet can be applied to many pages across a website
+
+	3 Ways to Insert CSS
+		1. External- all CSS rules are in 1 file targetting multiple documents. Everything is centralized
+		2. Internal- if one single page has a unique style (usually used for testing and troubleshooting. IDK what that means)
+		3. Inline- used for a single unique element 
+
+
