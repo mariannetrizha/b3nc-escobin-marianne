@@ -40,8 +40,12 @@ aler(s);
 
 ##Emoji
 
-:monkey:	
+:monkey:
+
 :star2:
+
 :speech_balloon:
+
 :zap:
+
 :v:
