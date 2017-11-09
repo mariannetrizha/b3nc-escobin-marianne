@@ -1,0 +1,40 @@
+/*css reset*/
+*{
+	margin: 0;
+	box-sizing: 0;
+	padding: 0;
+}
+
+.grandparent {
+	background-color: skyblue;
+}
+
+.parent {
+	background-color: pink;
+}
+
+/*color ends up being pink for both bec both are static*/
+
+div {
+	padding: 20px;
+}
+
+p {
+	position: static;
+	margin-left: 50px;
+	margin-top: -20px; /*off canvas: positioning elements not visible to the user*/
+
+}
+
+input[name="firstname"] {
+	margin-right: 20px;
+}
+
+
+strong {
+	background-color: yellow;
+	position: relative;
+	left: 50px;
+	top: 100px;
+	left: 100px;
+}
