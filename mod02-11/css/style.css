@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /* to avoid overflow (horizontal scrollbar) */
+}
+
+#parent-div1 { 
+	background-color: black;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+	position: relative;
+	clear: both;
+	overflow: auto;
+ }
+
+#parent-div1 > .child-div { 
+	width: 150px;
+	height: 150px; 
+	background-color: grey; 
+	margin: 10px;
+	float: left;
+	position: relative;
+ }
+
+ #grand-parent-div { 
+ 	width: 700px;
+ 	height: auto;
+ 	padding: 10px;
+ 	padding-bottom: 50px;
+ 	background-color: black;
+ 	overflow: auto;
+ 	float: left;
+ 	clear: both;
+
+ }
+
+ .default-div > .parent-div {
+ 	border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+}
+
+
+ }
+
+ .default-div > .parent-div > .child-div { 
+	height: 150px;
+    margin: 10px;
+    padding-bottom: 50px;
+    background-color: grey;
+    overflow: auto;
+    position: relative;
+  }
+
+.default-div { 
+	width: 700px;
+    height: auto;
+    padding: 10px;
+    background-color: black;
+    position: relative;
+    overflow: auto;
+    clear: both;
+} }
+
+ p, h1, h2, h3 { 
+ 	color: white;
+
+  }
+
+p {
+
+	padding: 5px;
+}
+#image-placeholder { 
+	background-color: grey;
+	width: 150px; 
+	height: 150px;
+	margin: 10px; 
+	position: relative;
+	overflow: auto;
+}
+ 
+
+.default500 {
+	width: 500px;
+	height: auto; 
+	padding: 10px;
+	left: 40%;
+	right: 59%;
+	overflow: auto;
+	position: relative;
+
+}
+
+.default500 > p { 
+	color: grey
+ }
+
+ #video-placeholder { 
+ 		height: 100px; 
+ 		width: left;
+
+  }
