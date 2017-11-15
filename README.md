@@ -22,3 +22,8 @@
 ####Wew! Time flies by so fast :) 3rd week with Tuitt and looking good so far. I often come to class realllly tired with 4 hours of sleep average. After Tuitt, I head straight to work.. still tired. But all's good, I think Im getting the hang of it and I've never been so hesitant on missing a class until Tuitt! 
 
 ####2nd piece of feedback: I think itd help if the  functionalities of these new installations are explained esp if we decide to install sublime on our laptops.. And maybe a short overview of gitlab and how to use it maybe?
+
+#Feedback 
+##2017-11-15
+###CSS FLoats and CLears 
+####Regimented work makes me really learn. Love it. 
