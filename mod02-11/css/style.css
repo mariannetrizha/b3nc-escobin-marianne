@@ -18,6 +18,7 @@
 .p-center { 
 	position: relative;
     margin-left: 50px;
+    color: grey;
  }
 
 
@@ -44,7 +45,7 @@
  	}
    
    h1, h2, h3, h4, h5, h6, p {
-   	color: white;
+   	color: grey;
    	text-align: center;
    }
 
@@ -55,12 +56,14 @@
 .right-side p {
 	padding-right: 50px;
 	font-size: 12px;
+	color: grey;
 
 }
 
  .justified { 
  	color: white;
  	text-align: justify;
+ 	color: grey;
   }
 
 
@@ -230,3 +233,73 @@ style.css:135
 	top: -40px;
 	color: grey;
 }
+
+#clip9-left {
+	width: 30%;
+	float: left;
+}
+
+#clip9-right {
+	width: 69%;
+	float: right;
+}
+
+#clip9-right .picture-holder {
+	background-color: grey;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.defaultvar3 {
+	width: 1000px;
+	height: 1000px;
+	padding: 10px;
+	background-color: black;
+}
+
+.left-side3 {
+	width: 60%;
+	height: auto;
+}
+
+.white-border2 {
+
+}
+
+.picture-holder3 {
+	width: 150px;
+	padding: 5px;
+	margin: 10px;
+	border-style: solid;
+	border-color: grey;
+	height: 150px;
+	float: left;
+
+}
+
+.right-side3 {
+	width: 40%;
+	height: auto;
+}
+
+.menu {
+
+}
+
+.minimenu {
+
+}
+
+.lower-right3 {
+
+
+}
+
+.baguiobox {
+	height: 100px;
+	width: 150px;
+	margin-right: 5px;
+}
+
+
+
