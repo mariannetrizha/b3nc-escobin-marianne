@@ -5,16 +5,21 @@ body {
 	margin: 0;
 }
 
-.nav, .banner, .about, .services, .projects, .gallery, .footer {
+.nav, .banner, .about, .services, .january, .gallery, .footer {
 	padding: 30px;
 }
 
 .logo {
-	width: 140px;
-	height: 140px;
-	background-color: darkgrey;
+	width: 96px;
+	height: 96px;
+	background-color: white;
+	border-radius: 50%;
+	margin: 25% auto 25% ;
+
 }
 
+
+	
 /*sticky sidebar*/
 
 /*
@@ -37,10 +42,11 @@ ul {
 
 ul > li {
 	list-style: none;
-	background-color: lightblue;
+	background-color: #e6d58a;
 	margin-bottom: 2px;
 	text-align: center;
 	line-height: 48px; /*or 20px padding*/
+	font-family: Playfair Display;
 }
 
 ul > li > a {
@@ -57,13 +63,14 @@ BANNER
 */
 
 .banner {
-	background-color: skyblue;
 	position: relative; 
 	height: 700px;
+	background-color: #013220;
+	opacity: .95;
 }
 
 .box {
-	border: 5px solid white;
+	border: 5px solid grey;
 	text-align: center;
 	width: 40%;
 	padding: 40px;
@@ -71,10 +78,29 @@ BANNER
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-family: 'Playfair Display', serif;
+	background-color: #013220;
+
+}
+
+.box > h1 {
+	font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 72px;
+    margin-top: -55px;
+}
+
+.box > p {
+	color: lightgrey;
+    font-size: 18px;
+    padding-top: -20px;
+    position: relative;
+    margin-top: -50px;
 }
 
 .about {
-	background-color: indianred;
+	background-color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
 	/*height: 700px;*/
 }
 
@@ -85,7 +111,7 @@ BANNER
 */
 
 .services {
-	background-color: midnightblue;
+	background-color: beige;
 	/*height: 300px;*/
 }
 
@@ -116,7 +142,7 @@ BANNER
 	clear: both;
 }
 
-.projects {
+.january {
 	background-color: crimson;
 	/*height: 300px;*/
 }
@@ -159,3 +185,5 @@ img[alt*="Social"] {
 .contact {
 	float: right;
 }
+
+/*added css for customization*/
