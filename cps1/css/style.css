@@ -1,0 +1,108 @@
+/*Universal CSS*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Core CSS*/
+
+.wrapper {
+	background-color: #2b2b2b;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family: Arial;
+	font-size: 1em;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	padding: 2em;
+}
+
+/*Main*/
+
+.main {
+
+}
+
+
+.section-header {
+	border: solid white .125em;
+	padding: 2em;
+	margin: 1em;
+
+}
+
+#website-name {
+	font-size: 2em;
+}
+
+#website-byline {
+	padding-top: 3em; 
+}
+
+button.nav {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+button.nav:hover {
+	background: grey;
+}
+
+/*Testimonials: Section-a*/
+
+#section-a {
+	background-color: white;
+
+}
+
+.section-a-img img {
+	height: 3em;
+	width: 3em;
+	border-radius: 50%;
+	float: right;
+	margin-top: 1em;
+}
+
+.section-a-testimony p {
+	color: black;
+	font-size: .75em;
+	text-align: left;
+	margin-right: 5em;
+
+}
+
+/*Testimonial: section b*/
+
+#section-b-photo-grid {
+	background-color: lightgrey;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	padding: 1em;
+	grid-gap: .5em;
+
+}
+
+#section-b h3, h6, p {
+	color: black;
+}
+
+#section-b-photo-grid {
+
+}
+	
+
+
