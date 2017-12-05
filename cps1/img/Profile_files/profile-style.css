@@ -1,0 +1,187 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: calibri;
+}
+
+a {
+	text-decoration: none;
+	padding:.5em;
+	padding-top: 2em;
+}
+
+ul li {
+	 list-style-type: none;
+}
+
+i {
+	color: grey;
+}
+
+p {
+	color: #666;
+}
+.top-nav {
+	background-color: #ccac00;
+	/*margin-bottom: 1em;*/
+	/*background: #cc0066;*/
+}
+
+.top-nav a, i {
+	position: relative;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    padding: 0 7px;
+    color: white;
+}
+
+.selector {
+	display: inline;
+}
+
+a:hover {
+	 background-color:#c4ba85;
+}
+
+div.selector:hover{
+    background-color:#c4ba85;
+}
+
+.top-nav input[type=text] {
+	background-color: #f5f8fa;
+    border-radius: 21px;
+    border: 1px solid #e6ecf0;
+    position: relative;
+    left: -.5em;
+    line-height: 16px;
+    padding: 4px;
+    transition: all .2s ease-in-out;
+    width: 20%;
+
+}
+
+.top-nav img {
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	position: relative;
+	top: .5em;
+	float: right;
+	margin-right: .5em;
+}
+
+.main-hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.sub-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 1em;
+	/*width: 400px;*/
+}
+
+/*section-a*/
+
+.section-a {
+	padding-top: 1em;
+	position: absolute;
+}
+
+#main-profile-photo img {
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+	float: left;
+}
+
+#description {
+	padding-bottom: 2em;
+	margin-left: 6em;
+	/*line-height: 1em;*/
+}
+
+#description button {
+	margin-top: 1em;
+}
+
+/*section-b */
+
+.section-b {
+	width: 100%;
+}
+
+#left-widget {
+	width: 20%;
+	float:left;
+	height: 50em;
+}
+
+#posts	{
+	margin-left: 9em;
+}
+
+.post {
+	padding: 1em;
+}
+
+.post-content {
+	padding-left: 2.5em;
+}
+
+#profile-photo img {
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	float: left;
+
+}
+
+.album {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: 8em;
+	grid-gap: .125em;
+	margin-top: .5em;
+}
+
+.album img {
+	width: 100%;
+	height: 100%;
+}
+
+#album1 #up3 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+#album1 #up5 {
+	grid-column: 3/5;
+	grid-row: 1/3;
+
+}
+
+#album2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer {
+	text-align: center;
+	position: relative;
+	top:30em;
+}
+
+/*@media only screen and (max-width: 401px) {
+    .wrapper {
+        width: 400px;
+    }
+  }*/
