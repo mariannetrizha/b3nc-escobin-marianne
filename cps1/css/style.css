@@ -6,12 +6,28 @@
 	font-family: Calibri;
 	color: white;
 
+
 }
 
 /*Core CSS*/
 
+h1{
+	display: inline;
+	background-color: #d64e09;
+	
+}
+
+ul {
+    margin:0;
+    line-height: 2em;
+ }
+
+
+ 
+
 .topnav {
-	background-color: black; 
+	background-color: #2b2b2b; 
+	line-height: 2em;
 
 }
 
@@ -29,32 +45,59 @@
 
 }
 
+.container {
+	padding: 0;
+	float: left;
+}
+
 #main-header {
 	float: left;
 	width: 40%;
 	position: relative;
-	margin-left: 2em; 
-	margin-top: 3em;
+	margin-left: 6em; 
+	margin-top: 5.5em;
 
 }
 
+#main-header a {
+ 	text-decoration: underline;
+ }
 
+ #main-header a:visited {
+ 	color: #d64e09;
+ }
+
+ #website-byline {
+ 	width: 14em;
+
+ }
 
 .forms {
+	clear: both;
 	float: right;
 	padding: .5em;
 	background-color: rgba(10, 10, 10, 0.5);
-	width: 45%;
 	margin-right: .5em;
 	position: relative;
 	border: 1px solid;
-	border-radius: 5%;
+	border-radius: 8px;
 	position: relative;
+	top: -3em;
+	right: 5em;
+}
+
+.forms a {
+	color: white;
 }
 
 #log-in {
 	margin-bottom: .125em;
 	margin-top: 3em;	
+}
+
+#log-in a:hover {
+	color: #d64e09;
+	text-decoration: none;
 }
 
 input {
@@ -68,6 +111,8 @@ input {
 	float: left;
 }
 
+
+
 button {
 	border-radius: 100px;
 	text-align: center;
@@ -76,21 +121,31 @@ button {
 }
 
 #log-in-button {
-	display: inline;
+	display: block;
 	width: 5em;
 	margin-left: -1.75em;
 	background: transparent;
-	border: 2px solid #B29600;
+	border: 2px solid #d64e09;;
 }
 
 #sign-up-button {
 	float: right;
-	background: #7F6B00;
+	padding: 3px;
+	border: 1px solid #d64e09;;
+	background-color: #d64e09;;
+
 
 }
 
+
 input[type=checkbox] {
 	width: auto;
+}
+
+input[type=text], input[type=password] {
+	margin: auto;
+	margin-bottom: .125em;
+	border-radius: 3px;
 }
 
 .remember-forgot {
@@ -102,6 +157,7 @@ input[type=checkbox] {
 
 /*slider*/
 .slider {
+	margin: 0;
 
 }
 
@@ -111,14 +167,19 @@ input[type=checkbox] {
 	height: 100vh;
 	width: 100%;
 
+	
+
 }
 
 
 .slide1 {
+
 	background-image:url(https://static.pexels.com/photos/591216/pexels-photo-591216.jpeg);
 	} /*2 women in the mountain*/
+
 .slide2 {
 	background-image:url(https://static.pexels.com/photos/39308/runners-silhouettes-athletes-fitness-39308.jpeg);
+
 } /*2 men running*/
 
 .slide3 {
@@ -140,3 +201,10 @@ input[type=checkbox] {
 	align-items: center;
 	padding: 0 2em;
 }*/
+@media only screen and (min-width: 580px) {
+	.forms {
+		position: relative;
+		top: -11em;
+	}
+
+}

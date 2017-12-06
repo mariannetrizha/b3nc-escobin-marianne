@@ -10,101 +10,93 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Capstone-1</title>
+	<title>Rigma</title>
 </head>
 <body>
 	<div class="wrapper">
 		<!-- Nav -->
-			<div class="topnav" id="topnav">
-				<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>			
-				</ul>
-			</div><!-- /nav -->
-
+		<div class="topnav" id="topnav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>			
+			</ul>
+		</div><!-- /nav -->
 		<!-- main-->
 		<div class="container" id="main">
 			<!-- main header -->
-				<div class="section-header" id="main-header">
-						<h1 id="website-name">RIGMA</h1>
-						<p id="website-byline">You don't have to do things alone. Find your support network with fellow goal getters <a href="#">here</a>.
-						</p>
-				</div><!-- /main-header -->
-				<!-- slider -->
-			<div class="section-header" id="log-in-or-sign-up">
-				<div class="forms" id="log-in">
-					<form action="">
-						<div class="field" id="username">
-							<input type="text" name="username" autocomplete="username" placeholder="Email or username">
-						</div>
+			<div class="section-header" id="main-header">
+				<h1 id="website-name" style="text-align: center;">RIGMA</h1>
+				<p id="website-byline">You don't have to do things alone. Find your support network with fellow goal getters <a href="#">here</a>.
+				</p>
+			</div><!-- /main-header -->
 
-						<div class="field" id="password">
-							<input type="text" id="password" name="password" autocomplete="username" placeholder="Password">
-						</div>
-						<button type="submit" id="log-in-button">Log in</button>
+		</div><!-- main -->
+		<div class="section-header" id="log-in-or-sign-up">
+			<div class="forms" id="log-in">
+				<form action="">
+					<div class="field" id="username">
+						<input type="text" name="username" autocomplete="username" placeholder="Email or username">
+					</div>
 
-
-
-						<div class="remember-forgot">
-							<label>
-								<input type="checkbox" name="remember-me">
-								<span>Remember me</span>
-								<span class="separator">|</span>
-								<a href="#">Forgot password?</a>
-							</label>
-						</div>
-					</form>
-				</div><!-- /Login -->
+					<div class="field" id="password">
+						<input type="text" id="password" name="password" autocomplete="username" placeholder="Password">
+					</div>
+					<a href="#"><button type="submit" id="log-in-button">Log in</button></a>
 
 
 
-				<div class="forms" id="signup">
-					<p><strong>New to Rigma? </strong>Sign up</p>
-					<form action="">
-						<div class="field">
-							<input type="text" name="full-name" placeholder="Full name">
-						</div>
-						<div class="field">
-							<input type="text" name="email" placeholder="Email">
-						</div>
-						<div class="field">
-							<input type="text" name="Password" placeholder="Password">
-						</div>
-						<button type="submit" id="sign-up-button">Sign up for Rigma</button>
-					</form>
-				</div><!-- /Signup -->
-			</div><!-- forms -->
-				<div class="slider">
-					<div class="slide slide1"></div>
-					<div class="slide slide2"></div>
-					<div class="slide slide3"></div>
-					<div class="slide slide4"></div>
-		
-				</div><!-- /slider -->
+					<div class="remember-forgot">
+						<label>
+							<input type="checkbox" name="remember-me">
+							<span>Remember me</span>
+							<span class="separator">|</span>
+							<a href="#">Forgot password?</a>
+						</label>
+					</div>
+				</form>
+			</div><!-- /Login -->
+			<div class="forms" id="signup">
+				<p><strong>New to Rigma? </strong>Sign up</p>
+				<form action="">
+					<div class="field">
+						<input type="text" name="full-name" placeholder="Full name">
+					</div>
+					<div class="field">
+						<input type="text" name="email" placeholder="Email">
+					</div>
+					<div class="field">
+						<input type="text" name="Password" placeholder="Password">
+					</div>
+					<a href="#"><button type="submit" id="sign-up-button">Sign up for Rigma</button></a>
+				</form>
+			</div><!-- /Signup -->
+		</div><!-- forms -->
+		<div class="slider">
+			<div class="slide slide1"></div>
+			<div class="slide slide2"></div>
+			<div class="slide slide3"></div>
+			<div class="slide slide4"></div>
+		</div><!-- /slider -->
+	</div><!-- /main -->
+</div><!-- /wrapper -->
 
+<!-- Test script -->
 
+<script type="text/javascript">
+	var slideIndex = 0;
+	carousel();
 
-		
-		</div><!-- /main -->
-	</div><!-- /wrapper -->
-
-	<!-- Test script -->
-
-	<script type="text/javascript">
-		var slideIndex = 0;
-		carousel();
-
-		function carousel() {
-		    var i;
-		    var x = document.getElementsByClassName("slide");
-		    for (i = 0; i < x.length; i++) {
-		      x[i].style.display = "none"; 
-		    }
-		    slideIndex++;
-		    if (slideIndex > x.length) {slideIndex = 1} 
-		    x[slideIndex-1].style.display = "block"; 
+	function carousel() {
+		var i;
+		var x = document.getElementsByClassName("slide");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none"; 
+		}
+		slideIndex++;
+		if (slideIndex > x.length) {slideIndex = 1} 
+			x[slideIndex-1].style.display = "block"; 
 		    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
+		}
 	</script>
 
 	<!-- important jquery -->
