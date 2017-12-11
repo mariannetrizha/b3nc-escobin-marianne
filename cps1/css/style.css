@@ -1,19 +1,27 @@
-/*Universal CSS*/
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: Calibri;
 	color: white;
+	font-size: 1em;
 
 
 }
 
 /*Core CSS*/
 
+.wrapper {
+	min-width: 320px; 
+	max-width: 860px;
+	min-height: 450px; 
+	max-height: 700px;
+}
+
 h1{
 	display: inline;
 	background-color: #d64e09;
+	font-size: 1.5em;
 	
 }
 
@@ -48,15 +56,15 @@ ul {
 .container {
 	padding: 0;
 	float: left;
+	margin: 0;
+
 }
 
 #main-header {
 	float: left;
-	width: 40%;
-	position: relative;
-	margin-left: 6em; 
-	margin-top: 5.5em;
-
+	margin:0 10%;
+	clear: both;
+	padding: 15% 0;
 }
 
 #main-header a {
@@ -65,25 +73,38 @@ ul {
 
  #main-header a:visited {
  	color: #d64e09;
+
  }
 
  #website-byline {
- 	width: 14em;
-
+/* 	width: 80%;
+*/
  }
+
+ #website-byline p {
+ 	/*text-align: justify;*/
+ }
+
+ /*#log-in-or-sign-up {
+ 	width: 80%;
+ }
+*/
+
 
 .forms {
 	clear: both;
 	float: right;
 	padding: .5em;
 	background-color: rgba(10, 10, 10, 0.5);
-	margin-right: .5em;
+	/*margin-right: .5em;*/
 	position: relative;
 	border: 1px solid;
 	border-radius: 8px;
-	position: relative;
+	width: 220px;
+	margin-right: 50px;
+	/*position: relative;
 	top: -3em;
-	right: 5em;
+	right: 5em;*/
 }
 
 .forms a {
@@ -91,8 +112,9 @@ ul {
 }
 
 #log-in {
+	margin-top: 0;
 	margin-bottom: .125em;
-	margin-top: 3em;	
+	/*margin-top: 3em;	*/
 }
 
 #log-in a:hover {
@@ -101,13 +123,13 @@ ul {
 }
 
 input {
-	width: 14em;
+	width: 100%;
 	border: 1px solid #ccd6dd;
 	margin: .0625em;
 }
 
  #password {
-	width: 9em;
+	width: 7.5em;
 	float: left;
 }
 
@@ -121,20 +143,52 @@ button {
 }
 
 #log-in-button {
-	display: block;
+	/*display: block;*/
+
 	width: 5em;
-	margin-left: -1.75em;
+	/*margin-left: -1.75em;*/
 	background: transparent;
 	border: 2px solid #d64e09;;
+}
+
+button, li {
+	cursor: pointer;
+}
+
+li:hover {
+	background-color: #2b2b2b;
+	cursor: pointer;
+	font-size: 22px;
+	border-radius: 5px;
+	color: #d64e09;
+}
+
+a:hover {
+	 color:#d64e09;
+}
+
+
+
+/*a:visited {
+	color: #2b2b2b;
+}*/
+
+
+#log-in-button:hover {
+	text-decoration: underline;
 }
 
 #sign-up-button {
 	float: right;
 	padding: 3px;
 	border: 1px solid #d64e09;;
-	background-color: #d64e09;;
+	background-color: #d64e09;
 
+}
 
+#sign-up-button:hover {
+	background: none;
+}
 }
 
 
@@ -146,6 +200,7 @@ input[type=text], input[type=password] {
 	margin: auto;
 	margin-bottom: .125em;
 	border-radius: 3px;
+	float: left;
 }
 
 .remember-forgot {
@@ -190,21 +245,33 @@ input[type=text], input[type=password] {
 	background-image:url(https://static.pexels.com/photos/515169/pexels-photo-515169.jpeg);
 } /*Group study*/
 
-/*#main {
-	background-image: url(https://static.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg);
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-} */
 
-/*#main-header { 
-	align-items: center;
-	padding: 0 2em;
-}*/
-@media only screen and (min-width: 580px) {
-	.forms {
-		position: relative;
-		top: -11em;
+
+
+
+@media only screen and (min-width: 540px) {
+	.container {
+
 	}
 
+	#main-header {
+		width: 30%;
+		margin: 0 10%;
+
+	}
+
+	.section-b {
+	float: right;
+	padding: 15% 0;
+	/*z-index: -1;*/
+}
+
+
+
+
+
+@media only screen and (min-width: 861px) {
+	.wrapper {
+		margin: auto ;
+	}
 }
