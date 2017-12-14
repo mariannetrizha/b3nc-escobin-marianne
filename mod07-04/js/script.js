@@ -38,8 +38,5 @@ function changeBackgroundColor() {
 			document.getElementById("theMessage").innerHTML = "Your new background color is red!";
 		break;
 
-
-
-
 	}
 }
