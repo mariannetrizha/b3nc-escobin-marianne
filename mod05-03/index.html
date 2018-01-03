@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Introduction</title>
+</head>
+<body>
+	<h1 id="intro">JavaScript Introduction</h1>
+	<button id="test" onclick="changeColor()">Click Me</button>
+	<hr>
+
+	<script type="text/javascript">
+		function getCode(){
+			var code = document.getElementById("code").value;
+			document.getElementById("display").innerHTML = code;
+		}
+		function changeColor(){
+			document.getElementById("test").style.backgroundColor= "white";
+		}
+
+		function getName(){
+			var fname = document.getElementById("fname").value;
+			alert(fname);
+		}
+	</script>
+
+	Enter name: <input type="text" name="fname">
+	<button onclick="getName()">Go!</button>
+
+	<hr>
+
+	<input type="text" id="code" onchange="getCode()">
+	<h2 id="display">Show here</h2>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess the Number</title>
+</head>
+<body>
+	<h2>Guess the number!</h2>
+	<input type="number" id="guess">
+	<button onclick="getNumber()">Check</button>
+	<h3 id="hint">Hmmm...</h3>
+
+	<script type="text/javascript">
+		function getNumber(){
+			var x = document.getElementbyId("guess").value;
+
+			if (x == 5){
+				alert("Correct!");
+			// else  
+			// document.getElementbyId("hint").innerHTML = "guess again!";
+		}
+	</script>
+
+</body>
+</html>
