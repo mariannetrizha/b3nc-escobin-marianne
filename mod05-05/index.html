@@ -11,13 +11,13 @@
 		var num1 = parseInt(document.getElementById("num1").value);
 		var num2 = parseInt(document.getElementById("num2").value);
 
-		document.getElementById("show").innerHTML = num1/num2;
+		document.getElementById("show").innerHTML = num1/(num2/100);
 	}
 	</script>
-	<h2>Enter number</h2>
-	<input type="number" id="num1" max="100" min="1">
-	<h2>Enter percent</h2>
-	<input type="number" id="num2" max="100" min="1">
+	
+	<input type="number" id="num1" max="100" min="1" placeholder="Enter Amount">
+	<br>	
+	<input type="number" id="num2" max="100" min="1" placeholder="%">
 	<button onclick="getNum()">Go!</button>
 
 	<p id="show">Show result here</p>

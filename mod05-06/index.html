@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<input type="number" id="input">
+<button onclick="draw()">Draw!</button>
+<h1 id="test"></h1>
+<script type="text/javascript">
+// var sum = 0 
+
+//Sum all numbers from 1-10; answer is 55
+// var x = 0
+// while(x<=10){
+// 	sum=sum +x
+// 	x++
+// }
+// alert(sum)
+
+//Sum all even numbers from 1-50; answer is 650
+// 	var sum = 0
+// 	var x = 0
+// 	while(x<=10){
+// 		if(x%2==0)
+// 			sum+=x
+// 		x++
+// 	}
+// alert(sum)
+
+//Sum all even and odd numbers from 1-50; answer is 650 and 625
+// 	var sumE = 0;
+// 	var sumO = 0;
+// 	var x = 0;
+// 	while(x<=50){
+// 		if(x%2==0)
+// 			sumE+=x
+// 		else
+// 			sumO+=x
+// 		x++
+// 	}  
+// alert("Sum of Even is "+sumE)
+// alert("Sum of Odd is "+sumO)
+
+//Important parts: 
+
+//1. Variable declaration-->starting point x=0;
+//2. Variable condition--> termination point x<=50
+//3. Variable modification--> making sure that it will terminate x++
+
+// Can also be:  for(var x=0; x<=50; x++){ }
+
+/*Multiple of 3 and 5
+Multiple of 5 but not of 3
+Multiple of 3 but not of 5
+Not a multiple of 3 or 5 .*/
+
+// for (var x = 0; x <= 20; x++) {
+// 	if(x%3==0 && x%5==0)
+// 		console.log(x+" is a multiple of 3 and 5");
+// 	else if(x%3==0)
+// 		console.log(x+" is a multiple of 3 but not of 5");
+// 	else if(x%5==0)
+// 		console.log(x+" is a multiple of 5 but not of 3");
+// 	else
+// 		console.log(x+" is NOT a multiple of 3 OR 5");
+
+// }
+
+function draw(){
+	var num = document.getElementById("input").value
+	console.log(num)
+
+
+for (var y = 1; y <= num;y++){
+	something(num)
+ }
+}
+
+function something(num){
+	for (var x = 1; x <= num;x++){
+ 	document.getElementById("test").innerHTML += "*"
+	}
+ 	document.getElementById("test").innerHTML += "<br>"
+}
+
+
+</script>
+</body>
+
+</html>
