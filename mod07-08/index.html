@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1 id="test">test</h1>
+<script type="text/javascript">
+	function printMyName(){
+		var text = "";
+		var yourName = "Juan Dela Cruz";
+		var counter; 
+		for(counter = 1; counter <= 20; counter +=3){
+			text = text + counter + " " + yourName + "<br>";
+		}
+		document.getElementById("test").innerHTML = text;
+	}
+	printMyName("test");
+</script>
+</body>
+</html>
